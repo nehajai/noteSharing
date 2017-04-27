@@ -110,7 +110,7 @@ $('#latest').on('click',function(){
   $("#notesNavigation ul li").removeClass('active');
 
   $(this).parent().addClass('active');
-  var url="http://acadprojects.com/py/notes/sharing/note";
+  var url="https://acadprojects.com/py/notes/sharing/note";
 getNotes(url);
 
 });
@@ -164,7 +164,7 @@ $("#loader").css('display','block');
   formData.append('category',subject);
 
   $.ajax({
-    url:'http://acadprojects.com/py/notes/sharing/note',
+    url:"http://acadprojects.com/py/notes/sharing/note",
     data:formData,
     type:'POST',
     contentType:false,
