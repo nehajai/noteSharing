@@ -14,10 +14,10 @@ body{
 #header h1
 {
   margin-bottom: 0px;
-    margin-right: 0px;
-    margin-top: 180px;
-    color: white;
-    font-size: 80px;
+  margin-right: 0px;
+  margin-top: 180px;
+  color: white;
+  font-size: 80px;
   font-family: 'EB Garamond', serif;
 }
 
@@ -26,8 +26,8 @@ body{
 #uploadBtn
 {
   padding: 6px 12px;
-   color: #333;
-    margin: 8px 10px;
+  color: #333;
+  margin: 8px 10px;
 }
 
 #headertop{
@@ -36,40 +36,40 @@ body{
 }
 /*#headerImage
 {
-  background: url('../images/back.jpg');
-  height:400px;
-  padding: 0px 0px;
+background: url('../images/back.jpg');
+height:400px;
+padding: 0px 0px;
 
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
+background-position: bottom;
+background-repeat: no-repeat;
+background-size: cover;
 }*/
 
 .tableScroll {
-    min-height: .01%;
-    overflow-x: auto;
+  min-height: .01%;
+  overflow-x: auto;
 }
 
 .parallax {
-    /* The image used */
-    background-image: url('../images/back.jpg');
+  /* The image used */
+  background-image: url('../images/back.jpg');
 
-    /* Set a specific height */
-    min-height: 400px;
+  /* Set a specific height */
+  min-height: 400px;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 nav.myNavbar
 {
   margin-bottom: 0px;
   background-color: #c2b0a2;
-    border-color: #a28671;
-    border-radius: 0px;
+  border-color: #a28671;
+  border-radius: 0px;
 }
 
 nav.myNavbar .navbar-brand
@@ -81,8 +81,8 @@ nav.notesNav
 {
 
   background-color: #c2b0a2;
-    border-color: #a28671;
-    border-radius: 0px;
+  border-color: #a28671;
+  border-radius: 0px;
 }
 .notesNav .navbar-nav li a{
   color: #fff;
